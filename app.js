@@ -42,7 +42,9 @@ async function run() {
     //const johns = await Person.find({firstName: "John"});
     //console.log(johns);
 
-    await Person.updateOne({_id: "6449728378487b0edea62480"},{firstName: "Jack"});
+    //await Person.updateOne({_id: "6449728378487b0edea62480"},{firstName: "Jack"});
+    //await Person.deleteOne({_id: "6449728378487b0edea62480"});
+
   } catch (error) {
     console.error(error);
   } finally {
